@@ -1,8 +1,8 @@
-CWMANet
+WMAN
 ==
 Description                
 --
->CWNANet is an erratic noise attenuation method using DNN waveform attention.  
+>WNANet is an erratic noise attenuation method using DNN waveform attention.  
 
 Reference
 ==
@@ -27,16 +27,16 @@ The accepted version of the paper can be downloaded from:
 
 Copyright
 ==
->Developers of the CWMAN package, 2024-present
+>Developers of the WMAN package, 2024-present
 
 Install
 ==
-conda create -n cwman python=3.11.7 <br>
-conda activate cwman <br>
+conda create -n wman python=3.11.7 <br>
+conda activate wman <br>
 conda install ipython notebook <br>
 pip install torch==2.2.1 <br>
 
-Then install CWNAN using the latest version
->git clone https://github.com/furser1/cwman <br>
-cd cwman <br>
+Then install WNAN using the latest version
+>git clone https://github.com/furser1/wman <br>
+cd wman <br>
 pip install -v -e <br>
