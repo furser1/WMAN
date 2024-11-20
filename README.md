@@ -49,7 +49,7 @@ conda install ipython notebook <br>
 pip install torch==2.2.1 <br>
 
 Then install WNAN using the latest version
->git clone https://github.com/furser1/wman <br>
+>git clone https://github.com/furser1/WMAN <br>
 cd wman <br>
 pip install -v -e <br>
 
