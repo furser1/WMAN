@@ -52,3 +52,33 @@ Then install WNAN using the latest version
 >git clone https://github.com/furser1/wman <br>
 cd wman <br>
 pip install -v -e <br>
+
+Code running 
+==
+Data description: The uploaded file is divided into the following parts:
+--
+> 1.1 Data part: corresponding to synthesized data and actual data respectively
+* syn2d.mat<br>
+* syn3d.mat<br>
+* real2d.mat<br>
+* real3d.mat<br>
+> 1.2 Pytorch network part: corresponds to WMANet network and PATCHUNET network respectively
+* model_wma_2dsyn1.ipynb<br>
+* model_wma_3dsyn2.ipynb<br>
+* model_wma_2dreal1.ipynb<br>
+* model_wma_3dreal2.ipynb<br>
+* model_patch_2dsyn1.ipynb<br>
+* model_patch_3dsyn2.ipynb<br>
+* model_patch_2dreal1.ipynb<br>
+* model_patch_3dreal2.ipynb<br>
+> 1.3 Data presentation part: used for data processing and presentation, corresponding to
+* WMANet_syn1_git.m 
+* WMANet_syn2_git.m
+* WMANet_real1d_git.m
+* WMANet_real3d_git.m
+  
+ Usage
+---
+>  First You can use 1.3 to load the data from 1.1 and Patching processing<br>
+>  Then, You can use 1.2's network for denoising<br>
+>   Finally, You can use 1.3 data Unpatching part to recover the data and display.<br>
