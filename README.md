@@ -79,6 +79,6 @@ Data description: The uploaded file is divided into the following parts:
   
  Usage
 ---
->  First You can use 1.3 to load the data from 1.1 and Patching processing<br>
+>  First, You can use 1.3 to load the data from 1.1 and Patching processing<br>
 >  Then, You can use 1.2's network for denoising<br>
 >   Finally, You can use 1.3 data Unpatching part to recover the data and display.<br>
