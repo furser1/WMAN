@@ -56,7 +56,6 @@ This repository contains code that uses several Python libraries. Below are the 
 
 
 # Install
-==
 ## This environment uses CUDA 11.7 with PyTorch. Make sure your system has compatible NVIDIA drivers installed.
 conda create -n wman python=3.11.7 <br>
 conda activate wman <br>
