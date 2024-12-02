@@ -41,12 +41,34 @@ Copyright
 ==
 >Developers of the WMAN package, 2024-present
 
-Install
+# Environment Configuration
+This repository contains code that uses several Python libraries. Below are the specific versions of the dependencies used in this project:
+## Dependencies
+| Library | Version |
+|---------|---------|
+| MatplotLib | 3.6.2 |
+| NumPy | 1.23.5 |
+| Pandas | 1.5.2 |
+| PyTorch | 1.13.0+CU117 |
+| Scikit-learn | 1.2.0 |
+| TQDM | 4.64.1 |
+| SciPy | 1.9.3 |
+
+
+# Install
 ==
+## This environment uses CUDA 11.7 with PyTorch. Make sure your system has compatible NVIDIA drivers installed.
 conda create -n wman python=3.11.7 <br>
 conda activate wman <br>
 conda install ipython notebook <br>
-pip install torch==2.2.1 <br>
+pip install matplotlib==3.6.2 <br>
+pip install numpy==1.23.5 <br>
+pip install pandas==1.5.2 <br>
+pip install torch==1.13.0+cu117 <br>
+pip install scikit-learn==1.2.0 <br>
+pip install tqdm==4.64.1 <br>
+pip install scipy==1.9.3 <br>
+
 
 Then install WNAN using the latest version
 >git clone https://github.com/furser1/WMAN <br>
@@ -82,3 +104,5 @@ Data description: The uploaded file is divided into the following parts:
 >  First, You can use 1.3 to load the data from 1.1 and Patching processing<br>
 >  Then, You can use 1.2's network for denoising<br>
 >   Finally, You can use 1.3 data Unpatching part to recover the data and display.<br>
+
+
