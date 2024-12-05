@@ -68,12 +68,6 @@ pip install scikit-learn==1.2.0 <br>
 pip install tqdm==4.64.1 <br>
 pip install scipy==1.9.3 <br>
 
-
-Then install WNAN using the latest version
->git clone https://github.com/furser1/WMAN <br>
-cd wman <br>
-pip install -v -e <br>
-
 Code running 
 ==
 Data description: The uploaded file is divided into the following parts:
